@@ -100,6 +100,14 @@ body {
     border-bottom: 2px solid #e6e6e6;
   }
 
+  /* Styles for mobile screens */
+  
+    @media screen and (max-width: 600px) {
+      nav ul {
+    font-size: 12px; /* smaller font size for mobile screens */
+    }
+  }
+
 /* DISCOVERY SECTION */
 
   # discovery-section {
